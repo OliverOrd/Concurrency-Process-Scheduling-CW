@@ -1,6 +1,6 @@
 # Output Visualisation
 
-![Alt text](output.jpg?raw=true "Optional Title")
+![Alt text](output2.jpg?raw=true "Optional Title")
 
 # Overview
 
