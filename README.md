@@ -100,9 +100,20 @@ runNonPreemptiveProcess or runPreempitiveProcess function should be called. The 
 functions can be called simultaneously corresponds to the number of “CPUs” (consumers). Your code must be
 able to simulate multiple “CPUs” and each “CPU” must have its own unique ID. 
 
-Tips:
+### Tips:
 
     • The short-term scheduler could run in separate threads, from which the simulation functions are called
     (representing the “CPUs”).
     • You probably want to wrap the simulation functions up in a different function that generates the
     expected output when the simulation function returns. This will simplify your code.
+
+
+## Summary
+
+The final implementation of your coursework should:
+
+    • implement the components described above and integrate them.
+    • be synchronised in a correct manner using mutexes and semaphores.
+    • be able to generate the output like the samples provided.
+    • simulate a pre-defined number of processes using a pre-defined number of (simulated) CPUs.
+We advise you to keep your code as simple as possible to not complicate the task.
