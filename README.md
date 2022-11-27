@@ -1,3 +1,7 @@
+# Output Visualisation
+
+![Alt text](output.jpg?raw=true "Optional Title")
+
 # Overview
 
 The goal of this coursework is to make use of operating system APIs (specifically, the POSIX API in Linux) and
