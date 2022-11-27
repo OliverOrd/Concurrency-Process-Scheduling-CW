@@ -12,23 +12,31 @@ queues (some of which will use the principles of bounded buffers) to model the s
 Completing all tasks will give you a good understanding of:
 
     • The use of operating system APIs.
+    
     • Process / thread scheduling algorithms.
+
     • Evaluation criteria for process scheduling.
+
     • The implementation of process tables, operating system queues, and bounded buffers.
+
     • Critical sections, semaphores and mutual exclusion.
+
     • The basics of concurrent / parallel programming using an operating system’s functionalities.
 
 
 # Requirements
 This coursework has the following key parts:
 
-    • The implementation of data structures (e.g. process queue, process table) like the ones you would find
-    in real world operating systems (although slightly simplified here).
-    • The implementation of a “process generator”, long and short-term schedulers, a priority booster, and a
-    “termination daemon”.
+    • The implementation of data structures (e.g. process queue, process table) like the ones you would find in real world operating systems (although slightly simplified here).
+
+    • The implementation of a “process generator”, long and short-term schedulers, a priority booster, and a “termination daemon”.
+
     • The implementation of a “Windows-10-ish” scheduling algorithm with pre-emption.
+
     • The calculation of response and turn-around times.
+
     • The simulation of processes.
+
     • The efficient and correct synchronisation of data structures and code (where necessary
 
 ## Process Table
@@ -102,10 +110,9 @@ able to simulate multiple “CPUs” and each “CPU” must have its own unique
 
 ### Tips:
 
-    • The short-term scheduler could run in separate threads, from which the simulation functions are called
-    (representing the “CPUs”).
-    • You probably want to wrap the simulation functions up in a different function that generates the
-    expected output when the simulation function returns. This will simplify your code.
+    • The short-term scheduler could run in separate threads, from which the simulation functions are called (representing the “CPUs”).
+
+    • You probably want to wrap the simulation functions up in a different function that generates the expected output when the simulation function returns. This will simplify your code.
 
 
 ## Summary
@@ -113,7 +120,10 @@ able to simulate multiple “CPUs” and each “CPU” must have its own unique
 The final implementation of your coursework should:
 
     • implement the components described above and integrate them.
+
     • be synchronised in a correct manner using mutexes and semaphores.
+
     • be able to generate the output like the samples provided.
+
     • simulate a pre-defined number of processes using a pre-defined number of (simulated) CPUs.
 We advise you to keep your code as simple as possible to not complicate the task.
